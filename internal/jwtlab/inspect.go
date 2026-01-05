@@ -2,6 +2,6 @@ package jwtlab
 
 import "fmt"
 
-func Inspect() {
-	fmt.Println("Inspecting JWT...")
+func Inspect(token string) {
+	fmt.Println("Inspecting JWT:", token)
 }
